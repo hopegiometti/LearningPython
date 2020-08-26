@@ -28,4 +28,6 @@ while True:
     else: 
         results.append(sentence_maker(user_input))
 
-print(results)
+joined_res = " ".join(results)
+
+print(joined_res)
