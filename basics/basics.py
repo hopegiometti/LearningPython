@@ -44,7 +44,8 @@ def mean(*args):
     return sum(args) / len(args)
 
 #with keyword argss
-def mean(**kwargs):
+def meanTwo(**kwargs):
     return kwargs
 
-print(mean(a=2, b=7, c=5))
+print(meanTwo(a=2, b=7, c=5))
+
